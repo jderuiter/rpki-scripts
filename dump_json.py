@@ -162,11 +162,11 @@ def main():
     try:
         # Convert to readable JSON output
         data = parsed.native
-    
+
         if type(parsed) is ContentInfo:
             for cert in data['content']['certificates']:
                 process_certificate(cert)
-            
+
             if data['content']['encap_content_info']['content_type'] == 'routeOriginAuthz':
                 process_roa(data['content']['encap_content_info']['content'])
             elif data['content']['encap_content_info']['content_type'] == 'rpkiManifest':
@@ -177,10 +177,11 @@ def main():
             pass
         else:
             sys.exit("Unkown content type")
-    
+
         print(json.dumps(jsonize_object(data), indent=2))
     except Exception as e:
         sys.exit("Something went wrong:\n" + str(e))
+
 
 if __name__ == "__main__":
     main()

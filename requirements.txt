@@ -1,1 +1,2 @@
 asn1crypto==0.24.0
+oscrypto==0.19.1
