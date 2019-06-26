@@ -8,7 +8,7 @@ Scripts to parse and process RPKI files, e.g. from
 * asn1crypto
 
 ```
-pip install asn1crypto
+pip install -r requirements.txt
 ```
 
 ## Download RPKI data
