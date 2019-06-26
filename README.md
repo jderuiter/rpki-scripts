@@ -1,6 +1,6 @@
 # RPKI scripts
 
-Scripts to parse and process RPKI files, e.g. from 
+Scripts to parse and process RPKI files, e.g. from RIPE NCC's repository.
 
 ## Requirements
 
