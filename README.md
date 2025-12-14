@@ -1,3 +1,5 @@
+**This repository moved to https://codeberg.org/cypherpunk/rpki-scripts**
+
 # RPKI scripts
 
 Scripts to parse and process RPKI files, e.g. from RIPE NCC's repository.
